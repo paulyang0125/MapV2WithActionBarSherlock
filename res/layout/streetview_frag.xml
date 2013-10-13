@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/streetview_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:clickable="true"
+        android:text="stree view" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Latitude" />
+
+    <EditText
+        android:id="@+id/LatitudeInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="35.010983" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Longitude" />
+
+    <EditText
+        android:id="@+id/LongitudeInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="135.768818" />
+
+   
+
+</LinearLayout>

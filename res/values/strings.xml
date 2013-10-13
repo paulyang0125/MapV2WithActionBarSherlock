@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PaulGoogleMapTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="legal">Legal Notices</string>
+    <string name="no_maps">Google Maps V2 not available!</string>
+    <string name="map_page_title">Map #</string>
+    <string name="un">UN</string>
+    <string name="united_nations">United Nations</string>
+    <string name="lincoln_center">Lincoln Center</string>
+    <string name="lincoln_center_snippet">Home of Jazz at Lincoln Center</string>
+    <string name="carnegie_hall">Carnegie Hall</string>
+    <string name="practice_x3">Where you go with practice, practice, practice</string>
+    <string name="downtown_club">The Downtown Club</string>
+    <string name="heisman_trophy">Original home of the Heisman Trophy</string>
+    <string name="build_101">101</string>
+    <string name="build_101_snippet">台北101購物中心 </string>
+    <string name="build_101_parking_lot">Parking Lot</string>
+    <string name="build_101_parking_lot_snippet">台北101大樓停車場 </string>
+    <string name="world_trade">WT building</string>
+    <string name="world_trade_snippet">台北世界貿易中心展覽大樓(世貿一館) </string>
+      <string name="icon">CommonsWare logo</string>
+
+</resources>
