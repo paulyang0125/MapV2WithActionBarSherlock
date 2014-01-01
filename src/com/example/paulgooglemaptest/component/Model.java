@@ -11,28 +11,50 @@
 #                                                                                #
 */
 
-
-package com.example.paulgooglemaptest;
+package com.example.paulgooglemaptest.component;
 
 import android.content.Context;
-import android.support.v4.view.PagerTitleStrip;
-import android.support.v4.view.ViewPager;
-import android.util.AttributeSet;
-import android.view.SurfaceView;
-import android.view.View;
+import android.graphics.Bitmap;
 
-public class MapAwarePager extends ViewPager {
-  public MapAwarePager(Context context, AttributeSet attrs) {
-    super(context, attrs);
+public class Model {
+  String key;
+  String title;
+  String snippet;
+  double lat;
+  double lon;
+  public Bitmap icon;
+
+  public Model(Context ctxt, String key, double lat, double lon, int title,
+        int snippet, Bitmap icon) {
+    this.key=key;
+    this.title=ctxt.getString(title);
+    this.snippet=ctxt.getString(snippet);
+    this.lat=lat;
+    this.lon=lon;
+    this.icon=icon;
   }
 
-  @Override
-  protected boolean canScroll(View v, boolean checkV, int dx, int x,
-                              int y) {
-    if (v instanceof SurfaceView || v instanceof PagerTitleStrip) {
-      return(true);
-    }
-    
-    return(super.canScroll(v, checkV, dx, x, y));
+  public String getKey() {
+    return(key);
+  }
+  
+  public Bitmap getIcon() {
+	    return(icon);
+	  }
+
+  public String getTitle() {
+    return(title);
+  }
+
+  public String getSnippet() {
+    return(snippet);
+  }
+
+  public double getLatitude() {
+    return(lat);
+  }
+
+  public double getLongitude() {
+    return(lon);
   }
 }

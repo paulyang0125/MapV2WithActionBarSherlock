@@ -21,6 +21,10 @@
     <string name="build_101_parking_lot_snippet">台北101大樓停車場 </string>
     <string name="world_trade">WT building</string>
     <string name="world_trade_snippet">台北世界貿易中心展覽大樓(世貿一館) </string>
-      <string name="icon">CommonsWare logo</string>
+    <string name="icon">CommonsWare logo</string>
+    <string name="d1">BELLAVITA</string>
+    <string name="d1_snippet">Lets go shopping</string>
+    <string name="d2">台北市議會</string>
+    <string name="d2_snippet">terrible place</string>
 
 </resources>

@@ -1066,12 +1066,14 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f020085;
         public static final int common_signin_btn_text_pressed_dark=0x7f020086;
         public static final int common_signin_btn_text_pressed_light=0x7f020087;
-        public static final int enemy=0x7f020088;
-        public static final int ic_launcher=0x7f020089;
-        public static final int ic_plusone_medium_off_client=0x7f02008a;
-        public static final int ic_plusone_small_off_client=0x7f02008b;
-        public static final int ic_plusone_standard_off_client=0x7f02008c;
-        public static final int ic_plusone_tall_off_client=0x7f02008d;
+        public static final int droid_1=0x7f020088;
+        public static final int enemy=0x7f020089;
+        public static final int ic_launcher=0x7f02008a;
+        public static final int ic_plusone_medium_off_client=0x7f02008b;
+        public static final int ic_plusone_small_off_client=0x7f02008c;
+        public static final int ic_plusone_standard_off_client=0x7f02008d;
+        public static final int ic_plusone_tall_off_client=0x7f02008e;
+        public static final int rsz_enemy=0x7f02008f;
     }
     public static final class id {
         public static final int LatitudeInput=0x7f05003e;
@@ -1115,6 +1117,10 @@ containing a value of this type.
         public static final int abs__textButton=0x7f050017;
         public static final int abs__title=0x7f05001f;
         public static final int abs__up=0x7f05000f;
+        public static final int action_bar_add_marker=0x7f050043;
+        public static final int action_bar_draw=0x7f050041;
+        public static final int action_bar_menuitem1=0x7f050044;
+        public static final int action_bar_menuitem2=0x7f050045;
         public static final int disableHome=0x7f05000d;
         public static final int edit_query=0x7f05002a;
         public static final int homeAsUp=0x7f05000a;
@@ -1130,6 +1136,7 @@ containing a value of this type.
         public static final int showCustom=0x7f05000c;
         public static final int showHome=0x7f050009;
         public static final int showTitle=0x7f05000b;
+        public static final int show_my_location=0x7f050042;
         public static final int snippet=0x7f05003b;
         public static final int streetview_button=0x7f05003c;
         public static final int tabMode=0x7f050007;
@@ -1174,7 +1181,11 @@ containing a value of this type.
         public static final int streetview_frag=0x7f03001b;
     }
     public static final class menu {
-        public static final int tabbed=0x7f0b0000;
+        public static final int drawmenu=0x7f0b0000;
+        public static final int location_menu=0x7f0b0001;
+        public static final int marker_menu=0x7f0b0002;
+        public static final int simple_menu=0x7f0b0003;
+        public static final int tabbed=0x7f0b0004;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1313,6 +1324,10 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f060012;
+        public static final int d1=0x7f06003b;
+        public static final int d1_snippet=0x7f06003c;
+        public static final int d2=0x7f06003d;
+        public static final int d2_snippet=0x7f06003e;
         public static final int downtown_club=0x7f060032;
         public static final int heisman_trophy=0x7f060033;
         public static final int hello_world=0x7f060028;
