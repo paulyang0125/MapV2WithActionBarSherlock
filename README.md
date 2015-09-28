@@ -4,7 +4,9 @@
 This Android App is to demonstrate the common functionalities by Google Map v2, such as drawing, binding with my location, animation, mapping between xy coordinate on screen and lat/log. you can use it as reference for your GIS application development. 
 
 
-## Misc
+## Preview and Misc
+
+![Demo1] (http://3.bp.blogspot.com/-H2nShOVa_pM/Uq3rsVFg6yI/AAAAAAAAB_E/31XFwFvopEI/s1600/Screenshot_2013-12-15-23-53-56_resized.png)
 
 [For more info, here's the documentation for how it work in Chinese](http://paulyang0125.blogspot.tw/2013/10/andriod-googlemap-v2.html)
 
